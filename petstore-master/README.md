@@ -31,7 +31,7 @@ To launch the test page, open your browser at the following URL
 
 Get All Pets
 
-     ./gradlew test
+     GET "http://localhost:8080/pets"
 
 
 ## Deploying Application
