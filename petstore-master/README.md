@@ -32,8 +32,37 @@ To launch the test page, open your browser at the following URL
 Get All Pets
 
      GET "http://localhost:8080/pets"
+     
+Get All Pet Types
 
+     GET "http://localhost:8080/pets/type/all"
+     
+Add pet
 
-## Deploying Application
+     POST "http://localhost:8080/pets/add"
+     
+Add Pet Type
 
-To deploy the demo app on a docker-compose please visit [./deploy](https://github.com/rasika/petstore/tree/master/deploy)
+     POST "http://localhost:8080/pets/type/add"
+     
+Update Pet
+
+     PUT "http://localhost:8080/pets/update/4" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{\"petAge\":5,\"petName\":\"Rooney\",\"petType\":\"Dog\"}"
+     
+Update Pet Type
+
+     PUT "http://localhost:8080/pets/type/update/1" -H  "accept: */*" -H  "Content-Type: application/json" -d "{\"petType\":\"cats\"}"
+     
+Delete pet
+
+     DELETE "http://localhost:8080/pets/delete/7"
+     
+Add Pet Type
+
+     DELETE "http://localhost:8080/pets/type/delete/3"
+     
+Search pet
+
+     GET "http://localhost:8080/pets/search" -H  "accept: application/json" -d "{\"name\":\"Kitty\"}"
+
+     
