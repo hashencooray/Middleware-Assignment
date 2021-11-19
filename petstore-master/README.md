@@ -1,13 +1,6 @@
 # PetStore Application
-
-## Introduction
-
-MicroProfile Starter has generated this MicroProfile application for you.
-
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
-
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
-
+B.H.R.COORAY
+18000266
 ## Packaging and running the application
 
 If you want to build an _??ber-jar_, execute the following command:
