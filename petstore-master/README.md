@@ -31,7 +31,7 @@ To launch the test page, open your browser at the following URL
 
 Get All Pets
 
-./gradlew test
+     ./gradlew test
 
 
 ## Deploying Application
