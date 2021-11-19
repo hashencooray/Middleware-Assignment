@@ -1,6 +1,7 @@
 # PetStore Application
-B.H.R.COORAY
-18000266
+B.H.R.COORAY:
+18000266:
+2018CS026:
 ## Packaging and running the application
 
 If you want to build an _??ber-jar_, execute the following command:
